@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Webpage</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<form id="registrtionForm" action="submit.html" method="post">
+<fieldset>
+<legend>Personal Detail Info</legend>
+<div class="form-group">
+<label for="fname">First Name: </label><br>
+<input type="text" id="fname" name="fname" placeholder="enter first name"><br>
+<br>
+<label for="lname">Last Name: </label><br>
+<input type="text" id="lname" name="lname" placeholder="enter last name"><br>
+<br>
+<div class="error" id="nameError"></div>
+</div>
+<div class="form-group">
+<label for="email">Email:</label><br>
+<input type="email" id="email" name="email"></div>
+<div class="error" id="emailError"></div>
+<br>
+<div class="form-group">
+<p>Choose Your Gender:</p>
+<input type="radio" id="male" name="male" value="Male">
+<label type="male">Male</label><br>
+<input type="radio" id="female" name="female" value="Female">
+<label type="female">Female</label><br>
+<input type="radio" id="others" name="others" value="Others">
+<label type="others">Others</label>
+<div class="error" id="genderError"></div>
+</div><br>
+<br>
+<div class="form-group">
+<label for="password">Enter Password: </label><br>
+<input type="password" id="password" name="password"><br>
+<br>
+<label for="cpassowrd">Confirm Password:</label><br>
+<input type="password" id="cpassword" name="cpassword">
+<div class="error" id="passwordError"></div>
+</div><br><br>
+<div class="form-group">
+<input type="checkbox" id="terms" name="terms" value="Terms">
+<label for="terms">I provide my consent for sharing above information</ladel>
+    <div class="error" id="termsError"></div>
+    </div><br><br>
+<button type="submit">Submit</button>
+<div class="success" id="successMessage"></div>
+
+</fieldset>
+</form>
+</body>
+</html>

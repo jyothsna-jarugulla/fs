@@ -1,0 +1,53 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+   
+
+}
+p{
+    font-weight: bold;
+   
+}
+label{
+    font-weight:bold;
+    font-style:oblique;
+
+}
+legend{
+     font-weight:bold;
+     
+}
+button:hover{
+    background-color:rgba(31, 219, 31,0.7);
+}
+input:focus{
+    background-color: #78e7ed;
+}
+button{
+    background-color:rgba(40, 139, 226, 0.4);
+    margin:10px;
+    padding:8px;
+    cursor:pointer;
+
+}
+form{
+    background-color:rgba(151, 208, 240, 0.7);
+    padding:30px;
+    border:1px solid rgb(0, 153, 255);
+    border-radius:10px;
+}
+form-group{
+    margin:10px;
+}
+error{
+    color:red;
+    font-weight: bold;
+}
+success{
+    color:green;
+    font-weight:bold;
+}
